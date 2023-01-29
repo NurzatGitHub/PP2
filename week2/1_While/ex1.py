@@ -1,7 +1,10 @@
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return (a * b) // gcd(a, b)
 a = int(input())
 b = int(input())
-k = max(a,b)
-while k % min(a,b) != 0:
-    k += k
-    continue
-print(k)
+print(lcm(a,b))
