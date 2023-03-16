@@ -15,7 +15,7 @@ font = pygame.font.SysFont('Verdana', 36)
 bg = pygame.image.load(r'C:\Users\Nurza\Documents\PP2\week7\bb.png').convert()
 bg_rect = bg.get_rect()
 image_left = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\second.png")
-left_rect = image_left.get_rect(bottomleft = (415,565))
+left_rect = image_left.get_rect(bottomleft = (415,560))
 image_right = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\minute.png")
 right_rect = image_right.get_rect(bottomright = (825,600))
 
@@ -25,10 +25,10 @@ while True:
     hour, minute, second = ((t.hour % 12) * 5 + t.minute // 12) % 60, t.minute, t.second
     position_minute = get_clock_pos(clock60,minute)
     a = math.atan2(position_minute[1] - (left_rect[1]+32),position_minute[0] - (left_rect[0]+26))
-    right_hand_rot = pygame.transform.rotate(image_right,720-a*57.29)
+    right_hand_rot = pygame.transform.rotate(image_right,360-a*57.29)
     right_rect1 = (right_rect[0]-right_hand_rot.get_rect().width/2,right_rect[1]-right_hand_rot.get_rect().height/2)
     screen.blit(right_hand_rot,right_rect1)
-
+    # position_second = pygame.mouse.get_pos()
     position_second = get_clock_pos(clock60,second)
     angle = math.atan2(position_second[1] - (left_rect[1]+32),position_second[0] - (left_rect[0]+26))
     left_hand_rot = pygame.transform.rotate(image_left,360-angle*57.29)
@@ -37,9 +37,8 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             exit()
-            
     t = datetime.now()
-    time_render = font.render(f"{t:%H:%M:%S}",True,(25,100,100),(255,255,255))
+    time_render = font.render(f"{t:%H:%M:%S}",True,(25,100,10),(255,255,255))
     screen.blit(time_render,(0,0))
     pygame.display.update()
     clock.tick(10)
