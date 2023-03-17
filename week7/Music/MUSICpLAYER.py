@@ -1,44 +1,45 @@
 import pygame
-
+import os
 pygame.init()
 pygame.display.set_caption("Music Player")
 screen = pygame.display.set_mode((500,400))
+
 pygame.mixer.init()
-song1 = open(r"C:\Users\Nurza\Documents\PP2\week7\Music\Happiness.mp3")
-song2 = open(r"C:\Users\Nurza\Documents\PP2\week7\Music\The_Tokens_-_The_Lion_Sleeps_Tonight_64402105.mp3")
-song3 = open(r"C:\Users\Nurza\Documents\PP2\week7\Music\this-is-war-loopable-95413.mp3")
-songs = [song1,song2,song3]
+Music = r'C:\Users\Nurza\Documents\PP2\week7\Music'
+music_files = os.listdir(Music)
+music_files = [os.path.join(Music,file) for file in music_files if file.endswith(".mp3")]
 i = 0
-def play_song(i):
-    pygame.mixer.music.load(songs[i])
+pygame.mixer.music.load(music_files[i])
+def play_music():
     pygame.mixer.music.play()
-def pause_song():
+def stop_music():
     pygame.mixer.music.pause()
-def next_song(i):
-    pygame.mixer.music.stop()
-    pygame.mixer.music.load(songs[i])
+def next_music():
+    global i
+    i += 1
+    if i >= len(music_files):
+        i = 0
+    pygame.mixer.music.load(music_files[i])
     pygame.mixer.music.play()
-def prev_song(i):
-    pygame.mixer.music.stop()
-    pygame.mixer.music.load(songs[i])
+def prev_music():
+    global i
+    i -= 1
+    if i < 0:
+        i = len(music_files)-1
+    pygame.mixer.music.load(music_files[i])
     pygame.mixer.music.play()
+
 while 1:
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
-                play_song(i)
-            elif event.key == pygame.K_PAUSE:
-                pause_song()
-            elif event.key == pygame.K_PAGEUP:
-                i += 1
-                if i > len(songs)-1:
-                    i = 0
-                next_song(i)
-            elif event.key == pygame.K_PAGEDOWN:
-                i -= 1
-                if i < 0:
-                    i = len(songs)-1
-                prev_song(i)
+            if event.key == pygame.K_UP:
+                play_music()
+            elif event.key == pygame.K_DOWN:
+                stop_music()
+            elif event.key == pygame.K_RIGHT:
+                next_music()
+            elif event.key == pygame.K_LEFT:
+                prev_music()
         elif event.type == pygame.QUIT:
             pygame.quit()
             exit()

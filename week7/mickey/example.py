@@ -6,9 +6,9 @@ y = H//2
 WHITE = (255, 255, 255)
 sc = pygame.display.set_mode((W, H))
 clock = pygame.time.Clock()
-mickey = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\bb.png")
-leftHand = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\second.png")
-rightHand = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\minute.png")
+mickey = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\bb.png")
+leftHand = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\second.png")
+rightHand = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\minute.png")
 mickeyRect = mickey.get_rect()
 def blitRotateCenter(surf, image, center, angle):
     rotated_image = pygame.transform.rotate(image, angle)
