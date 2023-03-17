@@ -1,7 +1,6 @@
 import pygame
 from datetime import datetime
 import math
-RADIUS = 360
 def get_clock_pos(clock_dict, clock_hand):
     x = 410 + 300 * math.cos(math.radians(clock_dict[clock_hand]) - math.pi / 2)
     y = 410 + 300 * math.sin(math.radians(clock_dict[clock_hand]) - math.pi / 2)
