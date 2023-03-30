@@ -15,7 +15,7 @@ bg = pygame.image.load(r'C:\Users\Nurza\Documents\PP2\week7\mickey\bb.png').conv
 bg_rect = bg.get_rect()
 image_left = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\second.png")
 left_rect = image_left.get_rect(bottomleft = (415,560))
-image_right = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\ minute.png")
+image_right = pygame.image.load(r"C:\Users\Nurza\Documents\PP2\week7\mickey\minute.png")
 right_rect = image_right.get_rect(bottomright = (825,600))
 
 while True:
@@ -40,5 +40,5 @@ while True:
     time_render = font.render(f"{t:%H:%M:%S}",True,(25,100,10),(255,255,255))
     screen.blit(time_render,(0,0))
     pygame.display.update()
-    clock.tick(10)
+    clock.tick(80)
     screen.fill(0)
