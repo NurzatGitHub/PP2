@@ -1,5 +1,4 @@
 import random
-
 import pygame
 
 pygame.init()
@@ -14,6 +13,8 @@ WHITE = (255, 255, 255)
 clock = pygame.time.Clock()
 pygame.display.set_caption("SNAKE")
 score = 0
+level = 1
+FPS = 5
 class Point:
     def __init__(self, x, y):
         self.x = x
@@ -22,12 +23,8 @@ class Point:
 class Snake:
     def __init__(self):
         self.body = [
-            # Point(
-            #     x=WIDTH // BLOCK_SIZE // 2,
-            #     y=HEIGHT // BLOCK_SIZE // 2,
-            # ),
             Point(
-                x=WIDTH // BLOCK_SIZE // 2 + 1,
+                x=WIDTH // BLOCK_SIZE // 2,
                 y=HEIGHT // BLOCK_SIZE // 2,
             ),
         ]
@@ -119,6 +116,10 @@ food = Food(5, 5)
 dx, dy = 0, 0
 dict = {"up": True,"down" : True,'right': True,'left' : True}
 SCORE_FONT = pygame.font.SysFont("comicsansms", 25)
+def check_level(score):
+    global level
+    if score != 0 and score % 4 == 0:
+        level += 1
 
 while running:
     SCREEN.fill(GREEN)
@@ -142,6 +143,7 @@ while running:
         
     snake.move(dx, dy)
     if snake.check_collision(food):
+        check_level(score)
         score += 1
         snake.body.append(
             Point(snake.body[-1].x, snake.body[-1].y)
@@ -151,7 +153,10 @@ while running:
     draw_grid()
     snake.draw()
     food.draw()
+    
     SCORE = SCORE_FONT.render(f"Your score: {score}", True, BLACK)
-    SCREEN.blit(SCORE,(0,0))
+    LEVEL = SCORE_FONT.render(f"level: {level}", True, BLACK)
+    SCREEN.blit(SCORE,(10,0))
+    SCREEN.blit(LEVEL,(WIDTH-100,0))
     pygame.display.flip()
-    clock.tick(5)
+    clock.tick(FPS+level)
