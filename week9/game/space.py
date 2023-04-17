@@ -11,7 +11,7 @@ running = True
 paused = False
 score = 0
 level = 1
-player_life = 1000
+player_life = 100
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Cosmic Heat")
 FramePerSec = pygame.time.Clock()
