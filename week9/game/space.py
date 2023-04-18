@@ -219,7 +219,7 @@ while running:
             explosions.empty()
             enemyship_group.empty()
             EnemyShipBullets.empty()
-        player_life_surface = pygame.Surface((player_life, 25), pygame.SRCALPHA, 32)
+        player_life_surface = pygame.Surface((200, 25), pygame.SRCALPHA, 32)
         player_life_surface.set_alpha(216)
         player_life_bar = pygame.Surface(((player_life / 100) * 200, 30), pygame.SRCALPHA, 32)
         player_life_bar.set_alpha(216)
