@@ -1,4 +1,4 @@
-name,bigram,bigram_freq
+name,bigram,bigram_alternate_meeting
 "emma
 ","em  mm  ma  a
   ","em : 1   mm : 1   ma : 1   a
@@ -6,17 +6,17 @@ name,bigram,bigram_freq
 "olivia
 ","ol  li  iv  vi  ia  a
   ","ol : 1   li : 1   iv : 1   vi : 1   ia : 1   a
- : 1   "
+ : 2   "
 "ava
 ","av  va  a
   ","av : 1   va : 1   a
- : 1   "
+ : 3   "
 "isabella
 ","is  sa  ab  be  el  ll  la  a
   ","is : 1   sa : 1   ab : 1   be : 1   el : 1   ll : 1   la : 1   a
- : 1   "
+ : 4   "
 "sophia
 ","so  op  ph  hi  ia  a
-  ","so : 1   op : 1   ph : 1   hi : 1   ia : 1   a
- : 1   "
+  ","so : 1   op : 1   ph : 1   hi : 1   ia : 2   a
+ : 5   "
 charlotte,ch  ha  ar  rl  lo  ot  tt  te  ,ch : 1   ha : 1   ar : 1   rl : 1   lo : 1   ot : 1   tt : 1   te : 1   

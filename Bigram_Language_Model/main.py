@@ -34,5 +34,5 @@ for name in names:
 #     print(bigram + ": " + str(bigram_table[bigram]))
 df = pd.DataFrame(bigram_table)
 # f = open("myfile.csv", "w")
-df.to_csv('myfile.csv',index=False)
+df.to_csv('information.csv',index=False)
 print(df)
