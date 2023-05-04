@@ -11,7 +11,7 @@ running = True
 paused = False
 score = 0
 level = 1
-player_life = 100
+player_life = 1000
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Cosmic Heat")
 FramePerSec = pygame.time.Clock()
@@ -107,7 +107,7 @@ while running:
             )
             meteor_group.add(meteor_object)
 
-        if score >= 5000 and random.randint(0, 40) == 0 and len(enemyship_group) < 2:
+        if score >= 50 and random.randint(0, 40) == 0 and len(enemyship_group) < 2:
             enemy_img = random.choice(enemyships_imgs)
             ship = Enemyships(
                 random.randint(200, WIDTH - 100),
@@ -219,7 +219,7 @@ while running:
             explosions.empty()
             enemyship_group.empty()
             EnemyShipBullets.empty()
-        player_life_surface = pygame.Surface((200, 25), pygame.SRCALPHA, 32)
+        player_life_surface = pygame.Surface((player_life, 25), pygame.SRCALPHA, 32)
         player_life_surface.set_alpha(216)
         player_life_bar = pygame.Surface(((player_life / 100) * 200, 30), pygame.SRCALPHA, 32)
         player_life_bar.set_alpha(216)
