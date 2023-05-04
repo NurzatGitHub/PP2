@@ -9,7 +9,7 @@ for name in names:
     s = ""
     for i in range(len(name)-1):
         bigram = name[i:i+2]
-        s += f"{bigram}-"
+        s += f"{bigram}  "
     bigram_table['bigram'].append(s)
         # if bigram in bigram_table:
         #     bigram_table[bigram] += 1
