@@ -3,18 +3,29 @@ names = open("text.txt","r")
 
 bigram_table = {'name':[],'bigram':[],'bigram_freq':[]}
 
+all_bigrams = []
+
 for name in names:
+    freq = 1
     # print(name,end="")
     bigram_table['name'].append(name)
     s = ""
+    s_freq = ""
     for i in range(len(name)-1):
         bigram = name[i:i+2]
         s += f"{bigram}  "
-        if bigram in bigram_table['bigram']:
-            bigram_table['bigram_freq'] += 1
+        all_bigrams.append(bigram)
+        if bigram in all_bigrams:
+            freq += 1
+            # bigram_table['bigram_freq'].append(freq)
         else:
-            bigram_table['bigram_freq'] = 1
+            freq = 1
+            # bigram_table['bigram_freq'].append(freq)
         
+        s_freq += f"{bigram} : {freq}  "
+    bigram_table['bigram_freq'].append(s_freq)
+
+
     bigram_table['bigram'].append(s)
 # for bigram in bigram_table:
 #     print(bigram + ": " + str(bigram_table[bigram]))
