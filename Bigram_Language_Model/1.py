@@ -1,7 +1,7 @@
 import pandas as pd
 names = open("text.txt","r")
 
-bigram_table = {'name':[],'bigram':[],'bigram_freq':[]}
+bigram_table = {'name':[],'bigram':[],'bigram alternate meeting':[]}
 
 all_bigrams = []
 # freq = 1
