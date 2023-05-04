@@ -1,7 +1,7 @@
 import pandas as pd
 names = open("text.txt","r")
 
-bigram_table = {'name':[],'bigram':[],'bigram alternate meeting':[]}
+bigram_table = {'name':[],'bigram':[],'bigram_alternate_meeting':[]}
 
 all_bigrams = []
 # freq = 1
@@ -28,7 +28,7 @@ for name in names:
             # bigram_table['bigram_freq'].append(freq)
         
 
-    bigram_table['bigram_freq'].append(s_freq)
+    bigram_table['bigram_alternate_meeting'].append(s_freq)
     bigram_table['bigram'].append(s)
 # for bigram in bigram_table:
 #     print(bigram + ": " + str(bigram_table[bigram]))
