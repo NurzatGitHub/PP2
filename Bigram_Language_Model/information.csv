@@ -19,4 +19,380 @@ name,bigram,bigram_alternate_meeting
 ","so  op  ph  hi  ia  a
   ","so : 1   op : 1   ph : 1   hi : 1   ia : 2   a
  : 5   "
-charlotte,ch  ha  ar  rl  lo  ot  tt  te  ,ch : 1   ha : 1   ar : 1   rl : 1   lo : 1   ot : 1   tt : 1   te : 1   
+"charlotte
+","ch  ha  ar  rl  lo  ot  tt  te  e
+  ","ch : 1   ha : 1   ar : 1   rl : 1   lo : 1   ot : 1   tt : 1   te : 1   e
+ : 1   "
+"mia
+","mi  ia  a
+  ","mi : 1   ia : 3   a
+ : 6   "
+"amelia
+","am  me  el  li  ia  a
+  ","am : 1   me : 1   el : 2   li : 2   ia : 4   a
+ : 7   "
+"harper
+","ha  ar  rp  pe  er  r
+  ","ha : 2   ar : 2   rp : 1   pe : 1   er : 1   r
+ : 1   "
+"evelyn
+","ev  ve  el  ly  yn  n
+  ","ev : 1   ve : 1   el : 3   ly : 1   yn : 1   n
+ : 1   "
+"abigail
+","ab  bi  ig  ga  ai  il  l
+  ","ab : 2   bi : 1   ig : 1   ga : 1   ai : 1   il : 1   l
+ : 1   "
+"emily
+","em  mi  il  ly  y
+  ","em : 2   mi : 2   il : 2   ly : 2   y
+ : 1   "
+"elizabeth
+","el  li  iz  za  ab  be  et  th  h
+  ","el : 4   li : 3   iz : 1   za : 1   ab : 3   be : 2   et : 1   th : 1   h
+ : 1   "
+"mila
+","mi  il  la  a
+  ","mi : 3   il : 3   la : 2   a
+ : 8   "
+"ella
+","el  ll  la  a
+  ","el : 5   ll : 2   la : 3   a
+ : 9   "
+"avery
+","av  ve  er  ry  y
+  ","av : 2   ve : 2   er : 2   ry : 1   y
+ : 2   "
+"sofia
+","so  of  fi  ia  a
+  ","so : 2   of : 1   fi : 1   ia : 5   a
+ : 10   "
+"camila
+","ca  am  mi  il  la  a
+  ","ca : 1   am : 2   mi : 4   il : 4   la : 4   a
+ : 11   "
+"aria
+","ar  ri  ia  a
+  ","ar : 3   ri : 1   ia : 6   a
+ : 12   "
+"scarlett
+","sc  ca  ar  rl  le  et  tt  t
+  ","sc : 1   ca : 2   ar : 4   rl : 2   le : 1   et : 2   tt : 2   t
+ : 1   "
+"victoria
+","vi  ic  ct  to  or  ri  ia  a
+  ","vi : 2   ic : 1   ct : 1   to : 1   or : 1   ri : 2   ia : 7   a
+ : 13   "
+"madison
+","ma  ad  di  is  so  on  n
+  ","ma : 2   ad : 1   di : 1   is : 2   so : 3   on : 1   n
+ : 2   "
+"luna
+","lu  un  na  a
+  ","lu : 1   un : 1   na : 1   a
+ : 14   "
+"grace
+","gr  ra  ac  ce  e
+  ","gr : 1   ra : 1   ac : 1   ce : 1   e
+ : 2   "
+"chloe
+","ch  hl  lo  oe  e
+  ","ch : 2   hl : 1   lo : 2   oe : 1   e
+ : 3   "
+"penelope
+","pe  en  ne  el  lo  op  pe  e
+  ","pe : 2   en : 1   ne : 1   el : 6   lo : 3   op : 2   pe : 3   e
+ : 4   "
+"layla
+","la  ay  yl  la  a
+  ","la : 5   ay : 1   yl : 1   la : 6   a
+ : 15   "
+"riley
+","ri  il  le  ey  y
+  ","ri : 3   il : 5   le : 2   ey : 1   y
+ : 3   "
+"zoey
+","zo  oe  ey  y
+  ","zo : 1   oe : 2   ey : 2   y
+ : 4   "
+"nora
+","no  or  ra  a
+  ","no : 1   or : 2   ra : 2   a
+ : 16   "
+"lily
+","li  il  ly  y
+  ","li : 4   il : 6   ly : 3   y
+ : 5   "
+"eleanor
+","el  le  ea  an  no  or  r
+  ","el : 7   le : 3   ea : 1   an : 1   no : 2   or : 3   r
+ : 2   "
+"hannah
+","ha  an  nn  na  ah  h
+  ","ha : 3   an : 2   nn : 1   na : 2   ah : 1   h
+ : 2   "
+"lillian
+","li  il  ll  li  ia  an  n
+  ","li : 5   il : 7   ll : 3   li : 6   ia : 8   an : 3   n
+ : 3   "
+"addison
+","ad  dd  di  is  so  on  n
+  ","ad : 2   dd : 1   di : 2   is : 3   so : 4   on : 2   n
+ : 4   "
+"aubrey
+","au  ub  br  re  ey  y
+  ","au : 1   ub : 1   br : 1   re : 1   ey : 3   y
+ : 6   "
+"ellie
+","el  ll  li  ie  e
+  ","el : 8   ll : 4   li : 7   ie : 1   e
+ : 5   "
+"stella
+","st  te  el  ll  la  a
+  ","st : 1   te : 2   el : 9   ll : 5   la : 7   a
+ : 17   "
+"natalie
+","na  at  ta  al  li  ie  e
+  ","na : 3   at : 1   ta : 1   al : 1   li : 8   ie : 2   e
+ : 6   "
+"zoe
+","zo  oe  e
+  ","zo : 2   oe : 3   e
+ : 7   "
+"leah
+","le  ea  ah  h
+  ","le : 4   ea : 2   ah : 2   h
+ : 3   "
+"hazel
+","ha  az  ze  el  l
+  ","ha : 4   az : 1   ze : 1   el : 10   l
+ : 2   "
+"violet
+","vi  io  ol  le  et  t
+  ","vi : 3   io : 1   ol : 2   le : 5   et : 3   t
+ : 2   "
+"aurora
+","au  ur  ro  or  ra  a
+  ","au : 2   ur : 1   ro : 1   or : 4   ra : 3   a
+ : 18   "
+"savannah
+","sa  av  va  an  nn  na  ah  h
+  ","sa : 2   av : 3   va : 2   an : 4   nn : 2   na : 4   ah : 3   h
+ : 4   "
+"audrey
+","au  ud  dr  re  ey  y
+  ","au : 3   ud : 1   dr : 1   re : 2   ey : 4   y
+ : 7   "
+"brooklyn
+","br  ro  oo  ok  kl  ly  yn  n
+  ","br : 2   ro : 2   oo : 1   ok : 1   kl : 1   ly : 4   yn : 2   n
+ : 5   "
+"bella
+","be  el  ll  la  a
+  ","be : 3   el : 11   ll : 6   la : 8   a
+ : 19   "
+"claire
+","cl  la  ai  ir  re  e
+  ","cl : 1   la : 9   ai : 2   ir : 1   re : 3   e
+ : 8   "
+"skylar
+","sk  ky  yl  la  ar  r
+  ","sk : 1   ky : 1   yl : 2   la : 10   ar : 5   r
+ : 3   "
+"lucy
+","lu  uc  cy  y
+  ","lu : 2   uc : 1   cy : 1   y
+ : 8   "
+"paisley
+","pa  ai  is  sl  le  ey  y
+  ","pa : 1   ai : 3   is : 4   sl : 1   le : 6   ey : 5   y
+ : 9   "
+"everly
+","ev  ve  er  rl  ly  y
+  ","ev : 2   ve : 3   er : 3   rl : 3   ly : 5   y
+ : 10   "
+"anna
+","an  nn  na  a
+  ","an : 5   nn : 3   na : 5   a
+ : 20   "
+"caroline
+","ca  ar  ro  ol  li  in  ne  e
+  ","ca : 3   ar : 6   ro : 3   ol : 3   li : 9   in : 1   ne : 2   e
+ : 9   "
+"nova
+","no  ov  va  a
+  ","no : 3   ov : 1   va : 3   a
+ : 21   "
+"genesis
+","ge  en  ne  es  si  is  s
+  ","ge : 1   en : 2   ne : 3   es : 1   si : 1   is : 5   s
+ : 1   "
+"emilia
+","em  mi  il  li  ia  a
+  ","em : 3   mi : 5   il : 8   li : 10   ia : 9   a
+ : 22   "
+"kennedy
+","ke  en  nn  ne  ed  dy  y
+  ","ke : 1   en : 3   nn : 4   ne : 4   ed : 1   dy : 1   y
+ : 11   "
+"samantha
+","sa  am  ma  an  nt  th  ha  a
+  ","sa : 3   am : 3   ma : 3   an : 6   nt : 1   th : 2   ha : 5   a
+ : 23   "
+"maya
+","ma  ay  ya  a
+  ","ma : 4   ay : 2   ya : 1   a
+ : 24   "
+"willow
+","wi  il  ll  lo  ow  w
+  ","wi : 1   il : 9   ll : 7   lo : 4   ow : 1   w
+ : 1   "
+"kinsley
+","ki  in  ns  sl  le  ey  y
+  ","ki : 1   in : 2   ns : 1   sl : 2   le : 7   ey : 6   y
+ : 12   "
+"naomi
+","na  ao  om  mi  i
+  ","na : 6   ao : 1   om : 1   mi : 6   i
+ : 1   "
+"aaliyah
+","aa  al  li  iy  ya  ah  h
+  ","aa : 1   al : 2   li : 11   iy : 1   ya : 2   ah : 4   h
+ : 5   "
+"elena
+","el  le  en  na  a
+  ","el : 12   le : 8   en : 4   na : 7   a
+ : 25   "
+"sarah
+","sa  ar  ra  ah  h
+  ","sa : 4   ar : 7   ra : 4   ah : 5   h
+ : 6   "
+"ariana
+","ar  ri  ia  an  na  a
+  ","ar : 8   ri : 4   ia : 10   an : 7   na : 8   a
+ : 26   "
+"allison
+","al  ll  li  is  so  on  n
+  ","al : 3   ll : 8   li : 12   is : 6   so : 5   on : 3   n
+ : 6   "
+"gabriella
+","ga  ab  br  ri  ie  el  ll  la  a
+  ","ga : 2   ab : 4   br : 3   ri : 5   ie : 3   el : 13   ll : 9   la : 11   a
+ : 27   "
+"alice
+","al  li  ic  ce  e
+  ","al : 4   li : 13   ic : 2   ce : 2   e
+ : 10   "
+"madelyn
+","ma  ad  de  el  ly  yn  n
+  ","ma : 5   ad : 3   de : 1   el : 14   ly : 6   yn : 3   n
+ : 7   "
+"cora
+","co  or  ra  a
+  ","co : 1   or : 5   ra : 5   a
+ : 28   "
+"ruby
+","ru  ub  by  y
+  ","ru : 1   ub : 2   by : 1   y
+ : 13   "
+"eva
+","ev  va  a
+  ","ev : 3   va : 4   a
+ : 29   "
+"serenity
+","se  er  re  en  ni  it  ty  y
+  ","se : 1   er : 4   re : 4   en : 5   ni : 1   it : 1   ty : 1   y
+ : 14   "
+"autumn
+","au  ut  tu  um  mn  n
+  ","au : 4   ut : 1   tu : 1   um : 1   mn : 1   n
+ : 8   "
+"adeline
+","ad  de  el  li  in  ne  e
+  ","ad : 4   de : 2   el : 15   li : 14   in : 3   ne : 5   e
+ : 11   "
+"hailey
+","ha  ai  il  le  ey  y
+  ","ha : 6   ai : 4   il : 10   le : 9   ey : 7   y
+ : 15   "
+"gianna
+","gi  ia  an  nn  na  a
+  ","gi : 1   ia : 11   an : 8   nn : 5   na : 9   a
+ : 30   "
+"valentina
+","va  al  le  en  nt  ti  in  na  a
+  ","va : 5   al : 5   le : 10   en : 6   nt : 2   ti : 1   in : 4   na : 10   a
+ : 31   "
+"isla
+","is  sl  la  a
+  ","is : 7   sl : 3   la : 12   a
+ : 32   "
+"eliana
+","el  li  ia  an  na  a
+  ","el : 16   li : 15   ia : 12   an : 9   na : 11   a
+ : 33   "
+"quinn
+","qu  ui  in  nn  n
+  ","qu : 1   ui : 1   in : 5   nn : 6   n
+ : 9   "
+"nevaeh
+","ne  ev  va  ae  eh  h
+  ","ne : 6   ev : 4   va : 6   ae : 1   eh : 1   h
+ : 7   "
+"ivy
+","iv  vy  y
+  ","iv : 2   vy : 1   y
+ : 16   "
+"sadie
+","sa  ad  di  ie  e
+  ","sa : 5   ad : 5   di : 3   ie : 4   e
+ : 12   "
+"piper
+","pi  ip  pe  er  r
+  ","pi : 1   ip : 1   pe : 4   er : 5   r
+ : 4   "
+"lydia
+","ly  yd  di  ia  a
+  ","ly : 7   yd : 1   di : 4   ia : 13   a
+ : 34   "
+"alexa
+","al  le  ex  xa  a
+  ","al : 6   le : 11   ex : 1   xa : 1   a
+ : 35   "
+"josephine
+","jo  os  se  ep  ph  hi  in  ne  e
+  ","jo : 1   os : 1   se : 2   ep : 1   ph : 2   hi : 2   in : 6   ne : 7   e
+ : 13   "
+"emery
+","em  me  er  ry  y
+  ","em : 4   me : 2   er : 6   ry : 2   y
+ : 17   "
+"julia
+","ju  ul  li  ia  a
+  ","ju : 1   ul : 1   li : 16   ia : 14   a
+ : 36   "
+"delilah
+","de  el  li  il  la  ah  h
+  ","de : 3   el : 17   li : 17   il : 11   la : 13   ah : 6   h
+ : 8   "
+"arianna
+","ar  ri  ia  an  nn  na  a
+  ","ar : 9   ri : 6   ia : 15   an : 10   nn : 7   na : 12   a
+ : 37   "
+"vivian
+","vi  iv  vi  ia  an  n
+  ","vi : 4   iv : 3   vi : 5   ia : 16   an : 11   n
+ : 10   "
+"kaylee
+","ka  ay  yl  le  ee  e
+  ","ka : 1   ay : 3   yl : 3   le : 12   ee : 1   e
+ : 14   "
+"sophie
+","so  op  ph  hi  ie  e
+  ","so : 6   op : 3   ph : 3   hi : 3   ie : 5   e
+ : 15   "
+"brielle
+","br  ri  ie  el  ll  le  e
+  ","br : 4   ri : 7   ie : 6   el : 18   ll : 10   le : 13   e
+ : 16   "
+madeline,ma  ad  de  el  li  in  ne  ,ma : 6   ad : 6   de : 4   el : 19   li : 18   in : 7   ne : 8   
