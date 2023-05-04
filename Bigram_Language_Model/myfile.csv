@@ -1,17 +1,17 @@
-name,bigram
+name,bigram,bigram_freq
 "emma
 ","em  mm  ma  a
-  "
+  ",1
 "olivia
 ","ol  li  iv  vi  ia  a
-  "
+  ",1
 "ava
 ","av  va  a
-  "
+  ",1
 "isabella
 ","is  sa  ab  be  el  ll  la  a
-  "
+  ",1
 "sophia
 ","so  op  ph  hi  ia  a
-  "
-charlotte,ch  ha  ar  rl  lo  ot  tt  te  
+  ",1
+charlotte,ch  ha  ar  rl  lo  ot  tt  te  ,1
