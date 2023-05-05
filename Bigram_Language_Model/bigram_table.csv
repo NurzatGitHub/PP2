@@ -1,0 +1,6 @@
+name,bigrams
+Alice,"['Al', 'li', 'ic', 'ce']"
+Bob,"['Bo', 'ob']"
+Charlie,"['Ch', 'ha', 'ar', 'rl', 'li', 'ie']"
+Dave,"['Da', 'av', 've']"
+Eve,"['Ev', 've']"
