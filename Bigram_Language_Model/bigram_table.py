@@ -1,8 +1,9 @@
+import torch
 import pandas as pd
 names = open("text.txt","r")
 bigram_table = {'name':[],'bigram':[],'bigram_alternate_meeting':[]}
-
 all_bigrams = []
+
 num_bigrams = 0
 for name in names:
     bigram_table['name'].append(name)
@@ -20,7 +21,11 @@ for name in names:
     bigram_table['bigram_alternate_meeting'].append(s_freq)
     bigram_table['bigram'].append(s)
 
-df = pd.DataFrame(bigram_table)
+# info = ""
+# for bigrams in all_bigrams:
+#     info = f"{bigrams}: {all_bigrams.count(bigrams)}"
+#     bigram_table['all_bigrams'].append(info)
 
+df = pd.DataFrame(bigram_table)
 df.to_excel('bigram_table.xlsx',index=False)
 # print(df)
