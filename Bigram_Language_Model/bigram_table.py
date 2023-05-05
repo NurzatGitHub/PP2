@@ -21,7 +21,7 @@ for name in names:
     bigram_table['bigram'].append(s)
 
 df = pd.DataFrame(bigram_table)
-df.to_excel('bigram_table.xlsx')
+df.to_excel('bigram.xlsx')
 
 b = json.dumps(all_bigrams)
 f = open("all_bigrams.txt", "w")
