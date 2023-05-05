@@ -8,4 +8,4 @@ for bigrams in all_bigrams:
 
 df = pd.DataFrame(table_prob)
 
-df.to_excel('bigram_table.xlsx',index=False)
+df.to_excel('calculating_probabilities.xlsx',index=False)
