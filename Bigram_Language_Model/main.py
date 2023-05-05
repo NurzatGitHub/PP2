@@ -1,6 +1,5 @@
 import pandas as pd
 names = open("text.txt","r")
-
 bigram_table = {'name':[],'bigram':[],'bigram_alternate_meeting':[]}
 
 all_bigrams = []
@@ -14,7 +13,7 @@ for name in names:
         s += f"{bigram}  "
         all_bigrams.append(bigram)
         freq = all_bigrams.count(bigram)
-        s_freq += f"{bigram} : {freq}   "
+        s_freq += f"{bigram}: {freq}   "
     if bigram in all_bigrams:
         freq += 1
 
@@ -23,5 +22,5 @@ for name in names:
 
 df = pd.DataFrame(bigram_table)
 
-df.to_csv('information.csv',index=False)
+df.to_excel('bigram_table.xlsx',index=False)
 # print(df)

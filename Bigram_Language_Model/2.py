@@ -12,5 +12,5 @@ for name in names:
 # Создаем DataFrame из данных
 df = pd.DataFrame(bigram_table)
 
-# Сохраняем таблицу в файл CSV
-df.to_csv("bigram_table.csv", index=False)
+# Сохраняем таблицу в файл Excel
+df.to_excel("bigram_table.xlsx", index=False)
