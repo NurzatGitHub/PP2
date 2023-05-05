@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 names = open("names.txt","r")
 bigram_table = {'name':[],'bigram':[],'bigram_alternate_meeting':[]}
@@ -22,4 +23,7 @@ for name in names:
 
 df = pd.DataFrame(bigram_table)
 df.to_excel('bigram_table.xlsx')
+b = json.dumps(all_bigrams)
+f = open("all_bigrams.txt", "w")
+f.write(b)
 # print(df)
