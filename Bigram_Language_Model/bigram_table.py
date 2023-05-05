@@ -27,5 +27,5 @@ for name in names:
 #     bigram_table['all_bigrams'].append(info)
 
 df = pd.DataFrame(bigram_table)
-df.to_excel('bigram_table.xlsx',index=False)
+df.to_excel('bigram_table.xlsx')
 # print(df)
