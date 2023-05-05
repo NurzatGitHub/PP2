@@ -12,6 +12,7 @@ for bigrams in set_bigrams:
     prob = all_bg.count(bigrams)/len(all_bg)
     table_prob['probability'].append(str("{:.10f}".format(prob)))
     prob_freq[bigrams] = prob
-
+f = open('prob_freq','w')
+f.write(prob_freq)
 df = pd.DataFrame(table_prob)
 df.to_excel('probabilities.xlsx')
