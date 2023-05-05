@@ -4,7 +4,6 @@ names = open("names.txt","r")
 bigram_table = {'name':[],'bigram':[],'bigram_alternate_meeting':[]}
 all_bigrams = []
 
-num_bigrams = 0
 for name in names:
     bigram_table['name'].append(name)
     s = ""
@@ -23,6 +22,7 @@ for name in names:
 
 df = pd.DataFrame(bigram_table)
 df.to_excel('bigram_table.xlsx')
+
 b = json.dumps(all_bigrams)
 f = open("all_bigrams.txt", "w")
 f.write(b)
