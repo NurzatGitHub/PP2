@@ -4,10 +4,10 @@ set_bigrams = set(all_bigrams)
 table_prob = {'quantity':[],'probability':[]}
 
 for bigrams in set_bigrams:
-    probability = 0
+    prob = 0
     table_prob['quantity'].append(f"{bigrams}: {all_bigrams.count(bigrams)}")
-    probability = all_bigrams.count(bigrams)/len(all_bigrams)
-    table_prob['probability'].append(str("{:.10f}".format(probability)))
+    prob = all_bigrams.count(bigrams)/len(all_bigrams)
+    table_prob['probability'].append(str("{:.10f}".format(prob)))
 # "{:.10f}".format(probability)
 df = pd.DataFrame(table_prob)
 df.to_excel('probabilities.xlsx')
