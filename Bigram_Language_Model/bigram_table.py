@@ -15,8 +15,8 @@ for name in names:
         all_bigrams.append(bigram)
         freq = all_bigrams.count(bigram)
         s_freq += f"{bigram}: {freq}   "
-    if bigram in all_bigrams:
-        freq += 1
+    # if bigram in all_bigrams:
+    #     freq += 1
 
     bigram_table['bigram_alternate_meeting'].append(s_freq)
     bigram_table['bigram'].append(s)
